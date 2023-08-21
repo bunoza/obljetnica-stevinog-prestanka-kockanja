@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/obljetnica-stevinog-prestanka-kockanja/static/css/main.59a89a9e.css",
+    "main.js": "/obljetnica-stevinog-prestanka-kockanja/static/js/main.460f053f.js",
+    "static/js/787.04da45aa.chunk.js": "/obljetnica-stevinog-prestanka-kockanja/static/js/787.04da45aa.chunk.js",
+    "static/media/TickingTimebombBB.ttf": "/obljetnica-stevinog-prestanka-kockanja/static/media/TickingTimebombBB.73950a4698397f4efb30.ttf",
+    "static/media/TickingTimebombBB_ital.ttf": "/obljetnica-stevinog-prestanka-kockanja/static/media/TickingTimebombBB_ital.b69fd258193a1f2dbb49.ttf",
+    "index.html": "/obljetnica-stevinog-prestanka-kockanja/index.html",
+    "main.59a89a9e.css.map": "/obljetnica-stevinog-prestanka-kockanja/static/css/main.59a89a9e.css.map",
+    "main.460f053f.js.map": "/obljetnica-stevinog-prestanka-kockanja/static/js/main.460f053f.js.map",
+    "787.04da45aa.chunk.js.map": "/obljetnica-stevinog-prestanka-kockanja/static/js/787.04da45aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a89a9e.css",
+    "static/js/main.460f053f.js"
+  ]
+}
