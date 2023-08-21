@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'TickingTimebombBB';
+  src: url('./fonts/TickingTimebombBB.ttf') format('truetype'),
+       /* Add additional formats as needed */
+       url('./fonts/TickingTimebombBB_ital.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: black;
+  margin: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.Countdown {
+  display: flex;
+  font-size: 4rem; /*here*/
+  margin-top: 50px;
+}
+
+.Segment {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.NumberSegment {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Number {
+  font-size: 16vmin; /*here*/
+  color: red;
+  font-weight: bold;
+  width: 100%;
+  align-items: center;
+
+}
+
+.Colon {
+  font-size: 8vmin; /*here*/
+  color: red;
+  font-weight: bold;
+  opacity: 1;
+  width: 100%;
+  align-items: center;
+}
+
+.Hidden {
+  opacity: 0;
+}
+
+.Visible {
+  opacity: 1;
+}
+
+.Number, .Colon {
+  font-family: 'TickingTimebombBB', Arial, sans-serif;
+}
+
+.CongratsText {
+  font-size: 4rem;
+  color: red;
+  font-weight: bold;
 }
